@@ -1,0 +1,12 @@
+root:
+    $Request_genre_list
+
+filler:
+    %lemma
+    можешь | пожалуйста |
+    все | весь
+
+slots:
+    request_genre_list:
+        type: Request_genre_list
+        source: $Request_genre_list

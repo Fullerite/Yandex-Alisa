@@ -1,0 +1,13 @@
+root:
+    $Request_generate_new
+
+filler:
+    %lemma
+    можешь | пожалуйста
+    мне |
+    не очень | не особо | как-то
+
+slots:
+    request_generate_new:
+        type: Request_generate_new
+        source: $Request_generate_new

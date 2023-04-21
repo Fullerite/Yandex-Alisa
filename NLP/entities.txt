@@ -1,0 +1,36 @@
+entity Film_type:
+    lemma: true
+    values:
+        tv_series:
+            сериал | сериальчик
+        film:
+            фильм | фильмец | кино | киношка | кинцо
+
+entity Request_more_info:
+    lemma: true
+    values:
+        more_info_is_needed:
+            [расскажи .* (подробнее | больше)? .*]
+
+entity Request_generate_new:
+    lemma: true
+    values:
+        generate_new:
+            не .* нравится |
+            перегенерируй .* |
+            [(покажи | подскажи | посоветуй)? .* следующий .*] |
+            [(покажи | подскажи | посоветуй)? .* другой .*] |
+            [(покажи | подскажи | посоветуй)? .* новый .*] |
+            [сгенерируй .* заново] |
+            [сгенерируй .* новый] |
+
+entity Request_genre_list:
+    lemma: true
+    values:
+        genre_list_is_needed:
+            [покажи .* (список)? .* жанров] |
+            [перечисли .* жанры .*] |
+            [(расскажи | скажи) .* жанры .*] |
+            %exact
+            жанры |
+            список жанров |

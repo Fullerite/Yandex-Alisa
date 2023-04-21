@@ -1,0 +1,13 @@
+root:
+    $Request_more_info
+
+filler:
+    %lemma
+    можешь | пожалуйста |
+    о .* | про .* | об .*
+
+slots:
+    request_more_info:
+        type: Request_more_info
+        source: $Request_more_info
+
