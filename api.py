@@ -137,7 +137,8 @@ def get_genres() -> dict:
     """
     Reads json file with all available genres and forms film_genre-genre_ID pairs used for a Kinopoisk unofficial API call.
 
-    :return: 221 genre-id pairs"""
+    :return: 221 genre-id pairs
+    """
     with open("genres.json", "r", encoding="windows-1251") as file:
         genres = json.load(file)
 
