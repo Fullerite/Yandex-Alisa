@@ -7,11 +7,6 @@ It will help you by recommending films or TV series, either randomly or by genre
 Also, it can tell you about a specific film or an actor you want to know more about.
 To learn more, click the logo at the top.
 
-## Structure
-- Main logic
-- NLP (Natural Language Processing) tools
-- Auxiliary tools
-
 ## Main logic
 Skill logic is contained in `main.py`. It's built using if-else statements. 
 Small tasks were divided into multiple functions, 
