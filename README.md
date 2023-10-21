@@ -15,7 +15,7 @@ whereas the main processing happens in the `handler()` function, which is respon
 ![Main logic preview](https://im.wampi.ru/2023/04/21/main_logic_preview.png)
 
 ## NLP
-Natural Language Processing was done using Yandex's intents, which use their own language.
+Natural Language Processing was done using Yandex's intents, which use their own scripting language.
 
 ![NLP preview](https://ic.wampi.ru/2023/04/21/nlp_preview.png)
 
